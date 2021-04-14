@@ -11,7 +11,7 @@ python nkkm.py
 For Termux
 ```
 pkg install git python python3
-git clone https://github.com/katsume/nkkm
+git clone https://github.com/0katsume/nkkm
 pip install -r requirements.txt
 python nkkm.py
 ```
