@@ -48,7 +48,7 @@ while True:
         print('''About:
     Created by katsume.
     TG: @nlxrd
-    Github: github.com/katsume
+    Github: github.com/0katsume
         ''')
     elif choose == "0":
         exit()
